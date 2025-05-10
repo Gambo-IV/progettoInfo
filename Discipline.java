@@ -9,6 +9,18 @@ class Discipline{
         this.codiceCorso = codiceCorso;
     }
 
+    public String getCodiceDisciplina(){
+        return codiceDisciplina;
+    }
+    public String getNome(){
+        return nomeDisciplina;
+    }
+    public String getCodiceCorso(){
+        return codiceCorso;
+    }
+    public int getCfu(){
+        return cfu;
+    }
     @Override
     public String toString(){
         return codiceDisciplina+";"+nomeDisciplina+";"+cfu+";"+codiceCorso;

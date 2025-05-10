@@ -7,6 +7,19 @@ class Studente{
         this.codiceCorso = codiceCorso;
     }
     
+    public String getMatricolaStudente(){
+        return matricolaStudente;
+    }
+    public String getNomeStudente(){
+        return nome;
+    }
+    public String getCognomeStudente(){
+        return cognome;
+    }
+    public String getCodiceCorso(){
+        return codiceCorso;
+    }
+    
     @Override
     public String toString(){
         return matricolaStudente+";"+nome+";"+cognome+";"+codiceCorso;

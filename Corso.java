@@ -8,6 +8,16 @@ class Corso{
         this.durataAnni = durataAnni;
     }
 
+    public String getCodice(){
+        return codiceCorso;
+    }
+    public String getNome(){
+        return nomeCorso;
+    }
+    public int getDurata(){
+        return durataAnni;
+    }
+
     @Override
     public String toString(){
         return codiceCorso+";"+nomeCorso+";"+durataAnni;
